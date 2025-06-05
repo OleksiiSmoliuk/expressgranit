@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExpressGranit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header / Top block -->
+<header class="hero-header">
+  <!-- Фон заповнює всю ширину -->
+  <div class="hero-overlay">
+    <!-- Мови -->
+    <div class="lang-switch">
+      <button>EN</button>
+      <button>UA</button>
+    </div>
+
+    <!-- Логотип та меню -->
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="ExpressGranit Logo">
+      </div>
+      <nav class="main-menu">
+        <a href="#products">Products</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- Під шапкою: Привітання -->
+<section class="greeting">
+  <h1>
+    <span class="lang lang-ua">Welcome, colleague!</span>
+    <span class="lang lang-en" style="display: none;">Welcome, colleague!</span>
+  </h1>
+</section>
+
+
+  <!-- Hero image / Welcome -->
+  <section id="offer">
+  <div class="content-block">
+
+    <h2>Granite Offer from ExpressGranit</h2>
+    <p>
+      Dear colleagues,<br><br>
+      It was a great pleasure to meet you. We believe in sincere cooperation with our partners worldwide. Despite challenges, Ukrainian granite manufacturers continue to grow and export.<br><br>
+      At ExpressGranit, we offer premium Ukrainian granite such as:<br>
+      • Gray Ukraine<br>
+      • Leopard<br>
+      • Volga Blue Labradorite<br>
+      • Rosso-Karpato<br>
+      • Ukrainian Autumn<br>
+      • Flowers of Ukraine<br>
+      • Verde Oliva<br>
+      • Sandstone<br>
+      • Rosso Victoria<br><br>
+      We provide slabs (2400–3500 mm x 1200–1800 mm x 31.75 mm), paving stones, tiles, curbs, memorials and blocks. Initial volumes range from 2000 to 4000 m² and beyond.<br><br>
+      We export to Canada, USA, Germany, Italy, Spain and more. Our packaging ensures safe delivery worldwide.<br><br>
+      Choose Ukrainian granite – trusted quality, elegant design, and competitive prices.<br><br>
+      ExpressGranit – Your Partner in Stone Excellence.
+    </p>
+  </div>
+</section>
+
+
+<section id="products">
+   <h2>Products</h2>
+<div class="product-carousel-container">
+  <button class="carousel-btn left" onclick="scrollProductCarousel(-1)">❮</button>
+  <div class="product-carousel" id="productCarousel">
+    
+    <!-- Блок продукту 1 -->
+    <div class="product-block">
+      <img src="gray-ukraine.jpg" alt="Gray Ukraine Granite" class="product-image">
+      <div class="product-info">
+        <h2>Gray Ukraine</h2>
+        <p><strong>Description:</strong> Gray Ukraine is a premium Ukrainian natural stone quarried in the Zhytomyr region, known for its durability, elegance, and versatility in architectural applications.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Color: Light gray with evenly distributed black and white speckles.</li>
+          <li>Grain: Fine- to medium-grained texture.</li>
+          <li>Block Sizes: Large to medium blocks.</li>
+          <li>Finishing: Polished and flame-treated.</li>
+        </ul>
+        <p><strong>Applications:</strong> Facades, paving, memorials, countertops, cladding.</p>
+        <p><strong>Quarry:</strong> Pokostivka, Zhytomyr region.</p>
+      </div>
+
+    </div>
+    <!-- Блок продукту 2 -->
+    <div class="product-block">
+      <img src="flowers-of-ukraine.jpg" alt="Flowers of Ukraine - Mezhyrichka granite" class="product-image">
+      <div class="product-info">
+        <h2>Flowers of Ukraine – Mezhyrichka Granite</h2>
+        <p><strong>Description:</strong> One of Ukraine’s decorative granites, quarried in the Zhytomyr region.</p>
+        <p><strong>Key Characteristics:</strong></p>
+        <ul>
+          <li>Color: Rich brown with black and white inclusions (speckles).</li>
+          <li>Texture: Medium-grained structure.</li>
+          <li>Extraction: Medium blocks, sizes up to 3400 × 2600 mm and 1200 × 1500 mm.</li>
+        </ul>
+        <p><strong>Finishing:</strong></p>
+        <ul>
+          <li>Polishing: Enhances depth and color.</li>
+          <li>Flame treatment: Non-slip surface for exteriors.</li>
+        </ul>
+        <p><strong>Applications:</strong> Countertops, fireplace cladding, monuments, staircases, facade panels.</p>
+        <p><strong>Quarry:</strong> Mezhyrichka deposit, Zhytomyr region.</p>
+      </div>
+    </div>
+<!-- Блок продукту 2 -->
+<div class="product-block">
+  <img src="volga-blue.jpg" alt="Labrador Volga Blue" class="product-image">
+  <div class="product-info">
+    <h2>Labrador Volga Blue</h2>
+    <p><strong>Description:</strong> Volga Blue is a striking Ukrainian natural stone, classified commercially as granite but technically a labradorite. It is known worldwide for its dark base color with vivid blue and silver iridescent mineral flashes, making it ideal for premium interior and exterior use.</p>
+    <p><strong>Key Features:</strong></p>
+    <ul>
+      <li>Color: Deep black or charcoal gray with bluish-silver iridescence.</li>
+      <li>Texture: Medium- to coarse-grained crystalline structure.</li>
+      <li>Finish: Polished (enhances reflections), also available flamed or honed.</li>
+    </ul>
+    <p><strong>Sizes:</strong> Slabs (2400–3200 × 1200–1800 mm, 20/30/40 mm), cut-to-size, medium to large blocks.</p>
+    <p><strong>Applications:</strong> Countertops, facades, monuments, tiles, sculptures, flooring.</p>
+    <p><strong>Quarry:</strong> Zhytomyr region, Ukraine.</p>
+  </div>
+</div>
+<!-- Блок продукту 3 -->
+<div class="product-block">
+  <img src="sandstone.jpg" alt="Ukrainian Sandstone" class="product-image">
+  <div class="product-info">
+    <h2>Sandstone</h2>
+    <p><strong>Description:</strong> Sandstone is a natural sedimentary stone quarried in the Vinnytsia region of Ukraine, near the town of Yampil. Known for its warm, earthy tones, this sandstone is widely used in architecture and landscaping due to its natural texture and weather resistance.</p>
+    <p><strong>Key Features:</strong></p>
+    <ul>
+      <li>Color: Light beige, golden, pale pink, reddish-brown with natural texture variations.</li>
+      <li>Structure: Fine- to medium-grained, naturally slip-resistant.</li>
+      <li>Finish Options: Natural split, brushed, sawn, polished (rarely).</li>
+    </ul>
+    <p><strong>Available Formats:</strong> Flagstones, wall panels, pavement tiles, garden stones, architectural blocks, cut-to-size.</p>
+    <p><strong>Applications:</strong> Façades, garden paths, patios, retaining walls, fences, fireplaces.</p>
+    <p><strong>Advantages:</strong> Weather-resistant, eco-friendly, slip-proof for outdoor use.</p>
+  </div>
+</div>
+
+<!-- Блок продукту 4 -->
+<div class="product-block">
+  <img src="ukrainian-autumn.jpg" alt="Ukrainian Autumn Granite" class="product-image">
+  <div class="product-info">
+    <h2>Ukrainian Autumn</h2>
+    <p><strong>Description:</strong> Ukrainian Autumn is a durable natural stone quarried in the Dnipropetrovsk region, near the village of Ukrainian Autumn. It is valued for its strength, fine grain, and elegant color pattern, ideal for both architectural and industrial applications.</p>
+    <p><strong>Key Features:</strong></p>
+    <ul>
+      <li>Color: Gray-pink, light red, or pinkish-gray with black and white grains.</li>
+      <li>Grain: Fine to medium.</li>
+      <li>Texture: Uniform, ideal for multiple finish types.</li>
+    </ul>
+    <p><strong>Finishing:</strong> Polished, flamed, honed, or bush-hammered for various indoor and outdoor uses.</p>
+    <p><strong>Applications:</strong> Facades, paving, monuments, interior stairs, countertops.</p>
+    <p><strong>Sizes:</strong> Slabs (2400–3000 × 1200–1800 mm), blocks, cut-to-size.</p>
+    <p><strong>Quarry:</strong> Vasylivka deposit, Dnipropetrovsk Oblast, Ukraine.</p>
+  </div>
+</div>
+
+<!-- Блок продукту 5 -->
+<div class="product-block">
+  <img src="notte-nero.jpg" alt="Notte Nero Gabbro" class="product-image">
+  <div class="product-info">
+    <h2>Notte Nero</h2>
+    <p><strong>Description:</strong> Notte Nero (meaning “Black Night” in Italian) is a premium Ukrainian gabbro from the Zhytomyr region, known for its deep black color, fine grain, and superb polish. Perfect for both monumental and high-end architectural use.</p>
+    <p><strong>Key Features:</strong></p>
+    <ul>
+      <li>Color: Intense black with subtle dark gray crystals; nearly solid black when polished.</li>
+      <li>Grain: Fine- to medium-grained and homogeneous.</li>
+      <li>Finish: Polished, flamed, honed, bush-hammered, sandblasted.</li>
+    </ul>
+    <p><strong>Available Formats:</strong> Slabs (2400–3200 × 1200–1800 mm), blocks, tiles, cut-to-size, kerbstones.</p>
+    <p><strong>Applications:</strong> Monuments, facades, stairs, paving, countertops, urban landscaping.</p>
+    <p><strong>Quarry:</strong> Zhytomyr region, Ukraine — a major gabbro production center.</p>
+  </div>
+</div>
+
+<!-- Блок продукту 6 -->
+<div class="product-block">
+  <img src="verde-oliva.jpg" alt="Verde Oliva Granite" class="product-image">
+  <div class="product-info">
+    <h2>Verde Oliva</h2>
+    <p><strong>Description:</strong> Verde Oliva is a natural stone from Ukraine, quarried in the Zhytomyr region. Known for its solid gray tones and uniform texture, it offers high durability for both construction and decorative applications.</p>
+    <p><strong>Key Features:</strong></p>
+    <ul>
+      <li>Color: Medium to dark gray, sometimes with bluish undertones or fine black and white mineral grains.</li>
+      <li>Texture: Fine- to medium-grained, homogeneous structure.</li>
+      <li>Durability: Excellent resistance to frost, abrasion, and weathering.</li>
+      <li>Finish: Polished, flamed, honed, bush-hammered, or sandblasted (on request).</li>
+    </ul>
+    <p><strong>Available Formats:</strong> Slabs, blocks, tiles, paving stones, stairs, cladding panels, memorials.</p>
+    <p><strong>Applications:</strong> Facades, public paving, interior floors, countertops, monuments.</p>
+    <p><strong>Quarry:</strong> Maslasky deposit, Zhytomyr Oblast, Ukraine.</p>
+  </div>
+</div>
+<!-- Блок продукту 7 -->
+<div class="product-block">
+  <img src="carpazi.jpg" alt="Carpazi Granite" class="product-image">
+  <div class="product-info">
+    <h2>Carpazi</h2>
+    <p><strong>Description:</strong> Carpazi is a world-renowned red-pink Ukrainian granite, quarried in the Dnipropetrovsk region. It stands out for its vibrant color and excellent durability, making it ideal for both interior and exterior architectural use.</p>
+    <p><strong>Color & Appearance:</strong></p>
+    <ul>
+      <li>Primary color: Intense red to pink base</li>
+      <li>Inclusions: Uniform black and gray speckles</li>
+      <li>Decorative effect comparable to multicolor granites from India or Brazil</li>
+    </ul>
+    <p><strong>Key Properties:</strong></p>
+    <ul>
+      <li>Grain: Medium- to coarse-grained texture</li>
+      <li>Strength: High compressive and flexural strength</li>
+      <li>Resistance: Excellent resistance to weather and frost</li>
+      <li>Finish: Polished, flamed, honed, bush-hammered, sandblasted</li>
+    </ul>
+    <p><strong>Available Formats:</strong> Slabs, blocks, tiles, paving stones, curbs, stairs, panels, memorials.</p>
+    <p><strong>Applications:</strong> Facades, urban paving, interior stairs and floors, monuments, countertops.</p>
+    <p><strong>Quarry:</strong> Tokivske deposit, Dnipropetrovsk Oblast, Ukraine.</p>
+  </div>
+</div>
+<!-- Блок продукту 8 -->
+<div class="product-block">
+  <img src="dobryn-labradorite.jpg" alt="Dobryn Labradorite" class="product-image">
+  <div class="product-info">
+    <h2>Dobryn Labradorite</h2>
+    <p><strong>Description:</strong> Dobryn Labradorite is a Ukrainian decorative stone extracted from the Dobryn deposit in the Zhytomyr region. Known for its dark base color and beautiful labradorescent flashes, it is a top choice for luxury design projects.</p>
+    <p><strong>Key Characteristics:</strong></p>
+    <ul>
+      <li>Color: Dark gray to black base with blue, silver, and sometimes green iridescence</li>
+      <li>Texture: Medium- to coarse-grained crystalline structure</li>
+      <li>Durability: High resistance to wear, frost, and environmental impact</li>
+      <li>Finish: Polished (primary), honed, flamed, bush-hammered (on request)</li>
+    </ul>
+    <p><strong>Available Formats:</strong> Slabs, blocks, tiles, curbs, stairs, cladding panels, paving stones.</p>
+    <p><strong>Applications:</strong> Luxury countertops, interior floors and walls, facade cladding, monuments, decorative elements.</p>
+    <p><strong>Quarry:</strong> Dobryn deposit, Zhytomyr region, Ukraine.</p>
+  </div>
+</div>
+
+<!-- Блок продукту 9 -->
+<div class="product-block">
+  <img src="rosso-karpato.jpg" alt="Rosso-Karpato Marble" class="product-image">
+  <div class="product-info">
+    <h2>Rosso-Karpato (Marble)</h2>
+    <p><strong>Description:</strong> Rosso-Karpato is a distinctive Ukrainian red marble, named in Italian style to appeal to international markets. Quarried in Ukraine’s Carpathian region, it is prized for its vibrant color and decorative crystalline texture.</p>
+    <p><strong>Key Characteristics:</strong></p>
+    <ul>
+      <li>Color: Deep red to reddish-brown with fine black and white crystalline inclusions</li>
+      <li>Grain: Medium-grained with a consistent, decorative pattern</li>
+      <li>Durability: High frost and wear resistance</li>
+      <li>Finish: Polished, flamed, bush-hammered, honed, sandblasted</li>
+    </ul>
+    <p><strong>Available Formats:</strong> Slabs, blocks, tiles, paving stones, stairs, kerbs, facade panels.</p>
+    <p><strong>Applications:</strong> Interior and exterior walls, flooring, countertops, monuments, landscape architecture.</p>
+    <p><strong>Quarry:</strong> Central or Western Ukraine — marketed internationally as Rosso Carpato.</p>
+  </div>
+</div>
+<!-- Блок продукту 10 -->
+<div class="product-block">
+  <img src="lyznykivsky-red.jpg" alt="Lyznykivsky Red Granite" class="product-image">
+  <div class="product-info">
+    <h2>Lyznykivsky (Liznykivsky) Red Granite</h2>
+    <p><strong>Description:</strong> Lyznykivsky Granite is a premium Ukrainian natural stone, prized for its rich red color, fine grain, and exceptional durability. Quarried in the Zhytomyr region, it is widely used in monuments, cladding, and flooring across Europe.</p>
+    <p><strong>Color & Appearance:</strong></p>
+    <ul>
+      <li>Base color: Intense dark red to burgundy</li>
+      <li>Inclusions: Uniform black and gray speckles</li>
+      <li>Visual impact: Elegant tone, deepens when polished</li>
+    </ul>
+    <p><strong>Available Formats:</strong> Blocks, slabs, cut-to-size tiles, paving stones, stairs, wall panels, and memorials.</p>
+    <p><strong>Finishing Options:</strong> Polished, flamed, honed, bush-hammered, sandblasted.</p>
+    <p><strong>Key Properties:</strong> High compressive strength, low water absorption, frost-resistant, and abrasion-resistant.</p>
+    <p><strong>Applications:</strong> Monuments, facades, urban paving, stairs, countertops, sculptures.</p>
+    <p><strong>Quarry:</strong> Lyznyky village, Zhytomyr Oblast, Ukraine — one of the oldest and most productive granite quarries in the country.</p>
+  </div>
+</div>
+
+<!-- Блок продукту 11 -->
+<div class="product-block">
+  <img src="volga-blue-blocks.jpg" alt="Volga Blue Labradorite Export Blocks" class="product-image">
+  <div class="product-info">
+    <h2>Volga Blue Labradorite – Export Blocks</h2>
+    <p><strong>Description:</strong> Volga Blue is a premium-grade Ukrainian labradorite, known worldwide for its dark base and vivid blue-silver iridescence. Highly valued in international markets for its luxury appearance and durability.</p>
+    <p><strong>Export Block Specifications:</strong></p>
+    <ul>
+      <li>Origin: Zhytomyr region, Ukraine (Volga Blue deposit)</li>
+      <li>Stone type: Labradorite (Plagioclase feldspar group)</li>
+      <li>Color: Black to dark grey with blue/silver/green flashes</li>
+      <li>Grain: Medium to coarse crystalline texture</li>
+      <li>Block sizes: 1800–3200 mm (L) × 1000–1800 mm (W) × 1000–1800 mm (H)</li>
+      <li>Weight: 8–25 tons per block (avg.)</li>
+      <li>Surface: Natural (rough), ideal for slab production</li>
+      <li>Water absorption: &lt; 0.3%</li>
+      <li>Compression strength: &gt; 200 MPa</li>
+      <li>Frost resistance: Excellent</li>
+    </ul>
+    <p><strong>Applications:</strong> Luxury slabs, architectural cladding, countertops, monuments, sculptures.</p>
+    <p><strong>Export Destinations:</strong> Italy, China, India, Germany, USA, Poland, and more.</p>
+  </div>
+</div>
+
+
+
+    <!-- Тут можеш додати інші продукти копіюванням блока вище -->
+
+  </div>
+  <button class="carousel-btn right" onclick="scrollProductCarousel(1)">❯</button>
+</section>
+</div>
+
+</div>
+
+  <!-- Projects -->
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn prev">&#10094;</button>
+    <div class="carousel-track">
+      <img src="project1.jpg" alt="Project 1">
+      <img src="project2.jpg" alt="Project 2">
+      <img src="project3.jpg" alt="Project 3">
+      <img src="project4.jpg" alt="Project 4">
+      <img src="project5.jpg" alt="Project 5">
+      <img src="project6.jpg" alt="Project 6">
+      <!-- додавай скільки хочеш -->
+    </div>
+    <button class="carousel-btn next">&#10095;</button>
+  </div>
+</section>
+
+  <!-- Contacts -->
+ <div class="contact-section" id="contacts">
+  <h2>Contact Us</h2>
+
+  <!-- Manufacturing -->
+  <h3>Manufacturing</h3>
+  <p>
+    Ukraine, Zhytomyr region<br>
+    Village Slipchytsy, 1234<br>
+    <strong>Phone:</strong> 
+    <a href="tel:+380676043588">+38 067 604 3588</a> – Serhii<br>
+    <strong>Location:</strong> 
+    <a href="https://maps.apple.com/place?auid=7617530580813325506&coordinate=50.474668,28.874812&lsp=7618&name=%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B5%20%D0%BC%D1%96%D1%81%D1%86%D0%B5&map=h" 
+       target="_blank">
+       View on Map
+    </a>
+  </p>
+
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps?q=50.474668,28.874812&hl=en&z=15&output=embed" 
+      width="100%" 
+      height="300" 
+      style="border:0;" 
+      allowfullscreen 
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <!-- Official Representation -->
+  <h3>Official Representation</h3>
+  <p>
+    Office: Southampton, United Kingdom<br>
+    <strong>Phone:</strong> 
+    <a href="tel:+447756313089">+44 775 631 3089</a> – Oleksii<br>
+    <strong>Email:</strong> 
+    <a href="mailto:expressgranit.ua@gmail.com">expressgranit.ua@gmail.com</a>
+  </p>
+
+  
+  <a href="https://www.instagram.com/expressgranit?igsh=MWpmNHRqYzhsanV4aw==" target="_blank">
+    <img src="instagram-icon.png" alt="Instagram" class="social-icon" />
+  </a>
+</div>
+
+
+<div class="association">
+  <p>
+    The company <strong>Express Granit</strong> is a member of the 
+    <strong>ASSOCIATION OF ENTERPRISES OF THE STONE INDUSTRY OF UKRAINE</strong><br>
+    INDUSTRY OF STONE<br>
+    (Асоціація Підприємств Кам’яної Галузі України)
+  </p>
+  <a href="http://www.aesiu.com.ua/golovna/" target="_blank">
+    <img src="AESIU.logo.png" alt="Association Logo">
+  </a>
+</div>
+
+  <!-- Footer -->
+  <footer>
+  <img src="logo.png" alt="ExpressGranit Logo" class="footer-logo">
+  </footer>
+
+<script>
+  const track = document.querySelector('.carousel-track');
+  const images = Array.from(track.children);
+  const prevButton = document.querySelector('.prev');
+  const nextButton = document.querySelector('.next');
+
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const imageWidth = images[0].getBoundingClientRect().width + 20; // 20 — відступ
+    track.style.transform = 'translateX(' + (-imageWidth * currentIndex) + 'px)';
+  }
+
+  nextButton.addEventListener('click', () => {
+    if (currentIndex < images.length - 1) {
+      currentIndex++;
+      updateCarousel();
+    }
+  });
+
+  prevButton.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    }
+  });
+
+  window.addEventListener('resize', updateCarousel); // щоб працювало при зміні розміру
+</script>
+
+<script>
+function scrollProductCarousel(direction) {
+  const carousel = document.getElementById('productCarousel');
+  const scrollAmount = 920; // ширина одного блоку з маржинами
+  carousel.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
+}
+
+</body>
+</html>
